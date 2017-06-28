@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "npm-run-all --parallel electron webpack",
+    "electron": "electron .",
+    "webpack": "webpack"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -26,7 +28,8 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "electron": "~1.6.2"
+    "electron": "~1.6.2",
+    "npm-run-all": "^4.0.2"
   },
   "dependencies": {
     "react": "^15.6.1",
