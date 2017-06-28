@@ -1,14 +1,14 @@
 {
   "name": "react-electron-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application with reactJS",
   "main": "main.js",
   "scripts": {
     "start": "npm-run-all --parallel electron webpack",
     "electron": "electron .",
     "webpack": "webpack"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/kemy971/react-electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
@@ -16,8 +16,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "kcassin",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
