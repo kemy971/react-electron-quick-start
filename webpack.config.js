@@ -18,6 +18,7 @@ module.exports = {
             Services: path.resolve(__dirname, 'src/services/'),
             Constants: path.resolve(__dirname, 'src/constants/'),
             Statics: path.resolve(__dirname, 'src/statics/'),
+            Styles: path.resolve(__dirname, 'src/styles/')
         }
     },
     module: {

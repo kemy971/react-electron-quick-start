@@ -1,9 +1,13 @@
 import React from 'react';
+import 'Styles/App.scss';
 
 function App(){
     return (
         <div>
-            <h1>Hello World :)</h1>
+            <header>
+
+            </header>
+            <h1 className="text-center">Hello World :)</h1>
         </div>
     )
 }
